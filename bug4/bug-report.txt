@@ -6,3 +6,5 @@ The transaction filtering is case sensitive. That's annoying!
 
 *******************************************************
 *******************************************************
+
+Answer: toLowerCase();
