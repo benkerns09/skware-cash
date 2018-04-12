@@ -7,3 +7,5 @@ when hovered over
 
 *******************************************************
 *******************************************************
+
+Answer: Inline styel was taking precedence over .css stylesheet
