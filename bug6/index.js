@@ -1,7 +1,7 @@
 function renderTransactions(transactions) {
 	var finalHTML = '<div class="buffer">TRANSACTIONS</div>';
 
-	var transactionsHTML = _.map(transactions, function() {
+	var transactionsHTML = _.map(transactions, function(transaction) {//had to call the transaction parameter to access the transactions
 		var transactionHTML = '<div class="transaction">';
 		transactionHTML += '<div class="name">'   + transaction.name   + '</div>';
 		transactionHTML += '<div class="for">' 	  + transaction.for    + '</div>';
