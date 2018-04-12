@@ -12,7 +12,7 @@ function renderTransactions(transactions) {
 		return transactionHTML;
 	});
 
-	finalHTML += transactionsHTML.join();
+	finalHTML += transactionsHTML.join('');//.join()was appending the comma
 
 	return finalHTML;
 }
